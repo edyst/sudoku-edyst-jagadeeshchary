@@ -1,3 +1,33 @@
+*,
+*::before,
+*::after { 
+    
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Source Sans Pro,sans-serif;
+    
+
+}
+header,footer{
+    display: grid;
+    justify-content: center;
+    margin: 20px;
+    
+}
+.level{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+    width: 100ch;
+}
+button{
+    font-size: 25px;
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+}
 div{
     display: grid;
     justify-content: center;
@@ -13,7 +43,7 @@ td {
     border: 1px solid #bec6d4;
     text-align: center;
     padding: 0%;
-    font-size: 30px;
+    font-size: 25px;
  }
  td:nth-of-type(3n){
     border-right: 2px solid #344861 !important;
